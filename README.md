@@ -12,8 +12,8 @@
 
 ***How to run*:**
 
-- ***Starting the backend server**:* Navigate to **root/backend** and run the command: ***npm run server.***
-- **Starting the frontend server**: Navigate to **root/frontend** and run the command: **npm run start**.
+- ***Starting the backend server**:* Navigate to **root/backend** and first install the dependencies using **npm install**, then run the command: ***npm run server.***
+- **Starting the frontend server**: Navigate to **root/frontend** and first install the dependencies using **npm install**, run the command: **npm run start**.
 
 ***How to test*:**
 
