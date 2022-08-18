@@ -8,7 +8,7 @@
 
 **Architecutre**: I decided to go with a layer based architecture due to the benefits it provides when your codebase begins to scale. Also, it is much easier for other developers to understand the work flow and maintain it.
 
-![My Remote Image](https://i.ibb.co/hfmgx55/Screen-Shot-2022-08-17-at-8-15-31-PM.png)
+![My Remote Image](https://i.ibb.co/x5y069V/architecture.png)
 
 ***How to run*:**
 
