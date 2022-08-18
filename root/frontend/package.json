@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/styled": "^11.10.0",
     "autoprefixer": "^10.4.8",
     "axios": "^0.27.2",
     "cors": "^2.8.5",
