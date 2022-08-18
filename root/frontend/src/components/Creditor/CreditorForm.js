@@ -63,7 +63,7 @@ const CreditorForm = () => {
 
   const isEntryValid = () => {
     return (
-      newCreditor.balance > 2000 && newCreditor.minPaymentPercentage < 29.99
+      newCreditor.balance > 2000 && newCreditor.minPaymentPercentage <= 29.99
     );
   };
 

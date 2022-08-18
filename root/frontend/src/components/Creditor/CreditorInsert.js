@@ -69,7 +69,7 @@ function CreditorInsert() {
           name="minPaymentPercentage"
           className="p-2 tracking-wide text-sm text-gray-700"
           onChange={handleInputChange}
-          type="number"
+          type="float"
           placeholder="Minimum Payment Balance"
           defaultValue={newCreditor.minPaymentPercentage}
           required
