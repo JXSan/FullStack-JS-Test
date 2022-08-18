@@ -1,14 +1,14 @@
 # Full Stack JavaScript Test
 
-**Description**: Simple MERN stack web application that takes in some JSON data from a database and displays the contents in the table. The user also has the ability to add and remove entries within the table. 
+**Description**: Simple MERN stack web application that takes in some JSON data from a database and displays the contents in a table. The user also has the ability to add and remove entries within the table. 
 
 **FrontEnd**: React, TailWindCSS, Axios, Toasify, Cors, Mongoose
 
 **Backend**: ExpressJS, Mongoose, Axios
 
-**Architecutre**: I decided to go with a layer based architecture due to the benefits it provides when your codebase begins to scale. Also, it is much easier for other developers to understand the work flow and maintain it.
+**Architecture**: I decided to go with a layer based architecture due to the benefits it provides when your codebase begins to scale. Also, it is much easier for other developers to understand the work flow and maintain it.
 
-![My Remote Image](https://i.ibb.co/hfmgx55/Screen-Shot-2022-08-17-at-8-15-31-PM.png)
+![My Remote Image](https://i.ibb.co/x5y069V/architecture.png)
 
 ***How to run*:**
 
