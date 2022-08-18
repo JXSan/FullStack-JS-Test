@@ -80,7 +80,7 @@ const CreditorForm = () => {
 
     // Create new creditor object.
     const creditor = {
-      id: newCreditor.id ? newCreditor.id : Math.floor(Math.random() * 10000),
+      id: Math.floor(Math.random() * 10000),
       creditorName: newCreditor.creditorName,
       firstName: newCreditor.firstName,
       lastName: newCreditor.lastName,

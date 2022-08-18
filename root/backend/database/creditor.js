@@ -31,6 +31,7 @@ const createCreditor = async ({
     });
   } catch (err) {
     console.log(err);
+    return false;
   }
 };
 

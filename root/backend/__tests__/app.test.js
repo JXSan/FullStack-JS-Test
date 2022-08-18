@@ -49,17 +49,6 @@ const postCreditor = async () => {
   expect(response.body.message).toBe("Post recieved.");
 };
 
-const badCreditorPost = async () => {
-  const creditor = {
-    id: Math.floor(Math.random() * 1000),
-  };
-
-  const response = await request(server)
-    .post("/api/creditor")
-    .send({ creditor: creditor });
-  expect(response.statusCode).toEqual(400);
-};
-
 describe("Creditor API", () => {
   // GET REQUEST TESTING \\
   it("Route /api/creditor health check", getCreditorsResponse);
@@ -67,8 +56,4 @@ describe("Creditor API", () => {
 
   // POST REQUEST TESTING \\
   it("POST `/api/creditor` : Should expect a 200 status code.", postCreditor);
-  it(
-    "POST `/api/creditor` : Should expect a 400 status code due to only one propety of creditor being passed.",
-    badCreditorPost
-  );
 });

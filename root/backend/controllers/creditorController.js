@@ -21,6 +21,7 @@ const setCreditors = async (req, res) => {
   }
 
   const body = req.body;
+
   await createCreditor(body.creditor)
     .then((response) => {
       res.status(200).json({ message: "Post recieved.", results: response });
